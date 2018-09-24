@@ -14,6 +14,10 @@
 + Footer mit Copyright fehlt auf der Startseite, ist auf unterseiten vorhanden
 + Sponsorenlogos sind nur fünf auf anhieb zu sehen. Scrollen hilft nicht um mehr zu sehen, nur "drag and drop". Auch auf dem Desktop. Dadurch werden fünf Sponsorenlogos nie automatisch angezeigt, sondern erst nach User-Interaktion
 
-## CSS-Farben
+## CSS
++ 16 verschiedne CSS-Dateien
++ Vier CSS-Dateien von Tempalte und Wordpress. Keines mit Minify, alle einzeln und nicht kombiniert.
++ zwei verschiedene Icon-Fonts
 + 29 verschiedene Hintergrundfarben. Fünf verschiedene Grün-Töne. Zwei verschiedene Blau-Töne.
 + 34 verschiedene Text-Farben. drei verschiedene Grün-Töne. Sechs verschiedene Blau-Töne
+![CSS Farben](https://raw.githubusercontent.com/dominixdesign/analyze-steelers-de/master/pages/css-colors.PNG "CSS Farben")
