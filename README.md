@@ -14,7 +14,7 @@
 + keine Bild-Optimierung. Testweise ein Spielerbild durch https://tinypng.com/ und dabei 74%(!) gespart
 + Vector grafiken wurden unnötigerweise in pixelgrafiken umgewandelt. (Logo svg)
 + png zur Nutzung von Fotos (https://www.sitepoint.com/gif-png-jpg-which-one-to-use/)
-+ Anzahl Webfonts: 9 (neun!!!) widerspricht allem was Design ausmacht (https://www.lifewire.com/use-fewer-fonts-1074171)
++ Anzahl Webfonts: 9 (neun!!!) widerspricht allem was Design ausmacht (https://www.lifewire.com/use-fewer-fonts-1074171) dazu werden drei Webfonts (Open Sans, Raleway und Montserrat) doppelt geladen.
 
 ## Javascript
 + 30 verschiedene Javascript dateien
@@ -126,15 +126,20 @@
 
 ## Audit Tools
 
-### Speedtests
+### W3C HTML Check
 
-Speedtest alte Seite:
-[![Speedtest alte Seite](/pages/speedtest-old.png)](https://tools.pingdom.com/#5982eb57ca000000)
+https://validator.w3.org/nu/?doc=http%3A%2F%2Fsteelers.de%2F
+8 Errors, 47 Warnings (grob geschätzt ist das vollkommen in Ordnung)
+
+### Speedtests
 
 Speedtest neue Seite:
 [![Speedtest neue Seite](/pages/speedtest-new.png)](https://tools.pingdom.com/#5982ebb78dc00000)
 
-Speedtest esvk.de:
+Speedtest alte Seite:
+[![Speedtest alte Seite](/pages/speedtest-old.png)](https://tools.pingdom.com/#5982eb57ca000000)
+
+Vergleichs-Speedtest esvk.de:
 [![Speedtest ESVK](/pages/speedtest-esvk.png)](https://tools.pingdom.com/#5982cc3c4d400000)
 
 ### Google Chrome Audit
