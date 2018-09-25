@@ -12,7 +12,7 @@
 + alle Daten werden über http/1.1 ausgeliefert (http://www.chip.de/artikel/HTTP_2-Der-neue-Web-Standard_139963048.html)
 + kein cache-control, d.h. alle Daten werden immer ausgeliefert (gefixt am 25.9.))
 + keine Bild-Optimierung. Testweise ein Spielerbild durch https://tinypng.com/ und dabei 74%(!) gespart
-+ vector grafiken wurden unnötigerweise in pixelgrafiken umgewandelt. (Logo svg)
++ Vector grafiken wurden unnötigerweise in pixelgrafiken umgewandelt. (Logo svg)
 + png zur Nutzung von Fotos (https://www.sitepoint.com/gif-png-jpg-which-one-to-use/)
 + Anzahl Webfonts: 9 (neun!!!) widerspricht allem was Design ausmacht (https://www.lifewire.com/use-fewer-fonts-1074171)
 
@@ -35,7 +35,7 @@ Speedtest esvk.de:
 
 ## CSS
 + 16 verschiedne CSS-Dateien
-+ Vier CSS-Dateien von Tempalte und Wordpress. Keines mit Minify, alle einzeln und nicht kombiniert.
++ Vier CSS-Dateien von Template und Wordpress. Keines mit Minify, alle einzeln und nicht kombiniert.
 + zwei verschiedene Icon-Fonts
 + 29 verschiedene Hintergrundfarben. Fünf verschiedene Grün-Töne. Zwei verschiedene Blau-Töne.
 + 34 verschiedene Text-Farben. drei verschiedene Grün-Töne. Sechs verschiedene Blau-Töne
@@ -46,7 +46,7 @@ Speedtest esvk.de:
 + Sponsorenlogos sind nur fünf auf anhieb zu sehen. Scrollen hilft nicht um mehr zu sehen, nur "drag and drop". Auch auf dem Desktop. Dadurch werden fünf Sponsorenlogos nie automatisch angezeigt, sondern erst nach User-Interaktion (gefixt am 25.9., scrollt nun automatisch durch, dennoch immer die selbe Reihenfolge und man muss für hintere Sponsoren warten)
 
 ## Header
-+ Header mit Socialmedia, Mail und teelfon ist nur auf manchen Unterseiten. Und sowohl E-Mail-Adresse als auch Telefonnummer linkt auf den Datenschutz (???)
++ Header mit Socialmedia, Mail und teelfon ist nur auf manchen Unterseiten. Und sowohl E-Mail-Adresse als auch Telefonnummer linken auf auf die aktuell offene Seite.
 
 ## Seiten
 
@@ -113,6 +113,11 @@ Speedtest esvk.de:
 + Legende nicht mehr lesbar, sobald man nach unten scrollt
 + Blöcke mal in der fetten Überschrift, mal in der normalen Schrift darunter
 
+### Fanshop
++ nicht gekennzeichneter externer Link
+
+
+
 ### Sponsoren
 + keine einheitliche Aufmachung bei drei Seiten. Mal in Zeilen, mal in Spalten
 + Mauszeiger ändert sich zur Hand bei den Tabellenzeilen, aber nichts ist klickbar
@@ -123,9 +128,12 @@ Speedtest esvk.de:
 + Tippfehler in URL "gallerie"
 + Pagination bricht bei zwei Bildern in letzter Zeile bereits um
 
-
-### Fanshop
+### Archiv (warum ist das unter "Galerie"?)
 + nicht gekennzeichneter externer Link
 
-### Sprade TV
+### Stammverein
 + nicht gekennzeichneter externer Link
+
+### EgeTrans Arena
++ nicht gekennzeichneter externer Link
+
