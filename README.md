@@ -3,7 +3,7 @@
 
 ## Allgemein
 
-+ kein automatisches https (widerspricht der eigenen datenschutzverordnung)
++ kein automatisches https (widerspricht der eigenen Datenschutzverordnung)
 
 
 ## Größe der Webseite
