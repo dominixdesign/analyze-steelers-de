@@ -10,7 +10,7 @@
 + eine durchschnittliche Webseite hat momentan ca. 3MB: https://speedcurve.com/blog/web-performance-page-bloat/ steelers.de hat 14 MB (beim Start am Freitag waren es noch 30MB).
 + alleine das Bild im Footer ist 2,9 MB groß
 + alle Daten werden über http/1.1 ausgeliefert (http://www.chip.de/artikel/HTTP_2-Der-neue-Web-Standard_139963048.html)
-+ kein cache-control, d.h. alle Daten werden immer ausgeliefert (https://developer.mozilla.org/de/docs/Web/HTTP/Headers/Cache-Control)
++ kein cache-control, d.h. alle Daten werden immer ausgeliefert (gefixt am 25.9.))
 + keine Bild-Optimierung. Testweise ein Spielerbild durch https://tinypng.com/ und dabei 74%(!) gespart
 + vector grafiken wurden unnötigerweise in pixelgrafiken umgewandelt. (Logo svg)
 + png zur Nutzung von Fotos (https://www.sitepoint.com/gif-png-jpg-which-one-to-use/)
@@ -27,6 +27,11 @@ Speedtest neue Seite:
 Speedtest esvk.de:
 [![Speedtest ESVK](/pages/speedtest-esvk.png)](https://tools.pingdom.com/#5982cc3c4d400000)
 
+## Javascript
++ 30 verschiedene Javascript dateien
++ kein minify, kein kombinieren der Scripts
++ TeamCountdown Javascript wird doppelt geladen
++ owlCarousel wird doppelt geladen
 
 ## CSS
 + 16 verschiedne CSS-Dateien
@@ -38,12 +43,10 @@ Speedtest esvk.de:
 
 ## Footer
 + Footer mit Copyright fehlt auf der Startseite, ist auf Unterseiten vorhanden
-+ Sponsorenlogos sind nur fünf auf anhieb zu sehen. Scrollen hilft nicht um mehr zu sehen, nur "drag and drop". Auch auf dem Desktop. Dadurch werden fünf Sponsorenlogos nie automatisch angezeigt, sondern erst nach User-Interaktion
++ Sponsorenlogos sind nur fünf auf anhieb zu sehen. Scrollen hilft nicht um mehr zu sehen, nur "drag and drop". Auch auf dem Desktop. Dadurch werden fünf Sponsorenlogos nie automatisch angezeigt, sondern erst nach User-Interaktion (gefixt am 25.9., scrollt nun automatisch durch, dennoch immer die selbe Reihenfolge und man muss für hintere Sponsoren warten)
 
 ## Header
 + Header mit Socialmedia, Mail und teelfon ist nur auf manchen Unterseiten. Und sowohl E-Mail-Adresse als auch Telefonnummer linkt auf den Datenschutz (???)
-
-
 
 ## Seiten
 
@@ -71,4 +74,58 @@ Speedtest esvk.de:
 ### Saison / Spielplan
 + Absolut unnötige Pagination des Spielplanes. Eine Übersicht über alle Spiele ist nicht möglich.
 + Einfaches herausfinden, z.B. welche Spiele Ende Januar sind ist unmöglich ohne viele Seiten aufzurufen
++ fehlender ics download
 
+### Tabelle
++ Hintergrundbild kachelt und sorft für unlesbarkeit der Tabelle
++ Hintergrundbild ist das selbe wie im footer, aber mit GET-Paramtern versehen, so dass es ein zweites Mal geladen wird
++ Mauszeiger ändert sich zur Hand bei den Teams, obwohl nichts klickbar ist
++ Keine Legende an der Tabelle
++ Viele fehlende Informationen (Siege? Niederlagen?)
++ Teamlogos werden direkt von Holema geladen, kein Caching
+
+### Ligaspielplan
++ Mauszeiger ändert sich zur Hand bei den Spielen, obwohl nichts klickbar ist
++ keine Legende
++ keine Filtermöglichkeit
+
+### Die Steelers / Team / Spieleransicht
++ URL Design wird Probleme verursachen bei Spielern mit selbem Nachnamen
++ keine Spielerstatistik
++ keine Übersicht über Spielerdaten
++ kein Padding an Spielerbeschreibung, dadurch Text sehr eingequetscht
++ Spielerbilder in Detailansicht sind 1000 Pixel hoch, werden aber nichtmal halb so groß angezeigt.
++ Auch Spielerbilder in der Übersicht werden im Browser noch verkleinert
++ Länderflaggen werden direkt von der DEL2 Homepage geladen, kein Caching.
++ Mauszeiger ändert sich zur Hand bei den Spieler-Details, aber nichts ist klickbar
+
+### Teampartner
++ alle Sponsorenlogos werden von der Domain neu.steelers.de geladen
+
+### Spielerstatistik
++ nicht gekennzeichneter externer Link
+
+### Tickets
++ nicht gekennzeichneter externer Link
+
+### Dauerkarten
++ Mauszeiger ändert sich zur Hand bei den Tabellenzeilen, aber nichts ist klickbar
++ Legende nicht mehr lesbar, sobald man nach unten scrollt
++ Blöcke mal in der fetten Überschrift, mal in der normalen Schrift darunter
+
+### Sponsoren
++ keine einheitliche Aufmachung bei drei Seiten. Mal in Zeilen, mal in Spalten
++ Mauszeiger ändert sich zur Hand bei den Tabellenzeilen, aber nichts ist klickbar
++ alle Sponsorenlogos werden von der Domain neu.steelers.de geladen
+
+### Galerie
++ Passt vom Design nicht zum restlichen Auftritt, standard darstellung von NextGen Gallery
++ Tippfehler in URL "gallerie"
++ Pagination bricht bei zwei Bildern in letzter Zeile bereits um
+
+
+### Fanshop
++ nicht gekennzeichneter externer Link
+
+### Sprade TV
++ nicht gekennzeichneter externer Link
