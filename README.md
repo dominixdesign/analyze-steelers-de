@@ -3,28 +3,28 @@
 
 ## Allgemein
 
-+ kein automatisches https (widerspricht der eigenen Datenschutzverordnung)
++ ~~kein automatisches https (widerspricht der eigenen Datenschutzverordnung)~~ (fixed 26.09.)
 + Logo der Ladeanimation ist von neu.steelers.de
 
 ## Größe der Webseite
 + eine durchschnittliche Webseite hat momentan ca. 3MB: https://speedcurve.com/blog/web-performance-page-bloat/ steelers.de hat 14 MB (beim Start am Freitag waren es noch 30MB).
 + alleine das Bild im Footer ist 2,9 MB groß
-+ alle Daten werden über http/1.1 ausgeliefert (http://www.chip.de/artikel/HTTP_2-Der-neue-Web-Standard_139963048.html)
-+ ~~kein cache-control, d.h. alle Daten werden immer ausgeliefert~~ (gefixt am 25.9.))
++ ~~alle Daten werden über http/1.1 ausgeliefert (http://www.chip.de/artikel/HTTP_2-Der-neue-Web-Standard_139963048.html)~~ (fixed 26.09.)
++ ~~kein cache-control, d.h. alle Daten werden immer ausgeliefert~~ (fixed am 25.9.))
 + keine Bild-Optimierung. Testweise ein Spielerbild durch https://tinypng.com/ und dabei 74%(!) gespart
 + Vector grafiken wurden unnötigerweise in pixelgrafiken umgewandelt. (Logo svg)
 + png zur Nutzung von Fotos (https://www.sitepoint.com/gif-png-jpg-which-one-to-use/)
 + Anzahl Webfonts: 9 (neun!!!) widerspricht allem was Design ausmacht (https://www.lifewire.com/use-fewer-fonts-1074171) dazu werden drei Webfonts (Open Sans, Raleway und Montserrat) doppelt geladen.
 
 ## Javascript
-+ 30 verschiedene Javascript dateien
-+ kein minify, kein kombinieren der Scripts
++ ~~30 verschiedene Javascript dateien~~ (durch http/2 eher irrelevant)
++ ~~kein minify, kein kombinieren der Scripts~~  (fixed am 26.9. per WP Fastest Cache)
 + TeamCountdown Javascript wird doppelt geladen
 + owlCarousel wird doppelt geladen
 
 ## CSS
-+ 16 verschiedne CSS-Dateien
-+ Vier CSS-Dateien von Template und Wordpress. Keines mit Minify, alle einzeln und nicht kombiniert.
++ ~~16 verschiedne CSS-Dateien~~ (durch http/2 eher irrelevant)
++ ~~Vier CSS-Dateien von Template und Wordpress. Keines mit Minify, alle einzeln und nicht kombiniert.~~ (fixed am 26.9. per WP Fastest Cache)
 + zwei verschiedene Icon-Fonts
 + 29 verschiedene Hintergrundfarben. Fünf verschiedene Grün-Töne. Zwei verschiedene Blau-Töne.
 + 34 verschiedene Text-Farben. drei verschiedene Grün-Töne. Sechs verschiedene Blau-Töne
