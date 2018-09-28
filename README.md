@@ -4,11 +4,11 @@
 ## Allgemein
 
 + ~~kein automatisches https (widerspricht der eigenen Datenschutzverordnung)~~ (fixed 26.09.)
-+ Logo der Ladeanimation ist von neu.steelers.de
++ ~~Logo der Ladeanimation ist von neu.steelers.de~~ (fixed 28.09.)
 
 ## Größe der Webseite
-+ eine durchschnittliche Webseite hat momentan ca. 3MB: https://speedcurve.com/blog/web-performance-page-bloat/ steelers.de hat 14 MB (beim Start am Freitag waren es noch 30MB).
-+ alleine das Bild im Footer ist 2,9 MB groß
++ eine durchschnittliche Webseite hat momentan ca. 3MB: https://speedcurve.com/blog/web-performance-page-bloat/ steelers.de hat 14 MB (beim Start am Freitag waren es noch 30MB). Seit dem 28.9. sind es noch 9MB. Immernoch viel zu viel.
++ alleine das Bild im Footer ist 2,9 MB groß. Seit dem 28.9. ist das Bild noch vorhanden, aber da neu.steelers.de nicht mehr tut, wird das bild nicht mehr ausgeliefert.
 + ~~alle Daten werden über http/1.1 ausgeliefert (http://www.chip.de/artikel/HTTP_2-Der-neue-Web-Standard_139963048.html)~~ (fixed 26.09.)
 + ~~kein cache-control, d.h. alle Daten werden immer ausgeliefert~~ (fixed am 25.9.))
 + keine Bild-Optimierung. Testweise ein Spielerbild durch https://tinypng.com/ und dabei 74%(!) gespart
@@ -31,7 +31,7 @@
 ![CSS Farben](/pages/css-colors.PNG "CSS Farben")
 
 ## Footer
-+ Footer mit Copyright fehlt auf der Startseite, ist auf Unterseiten vorhanden
++ ~~Footer mit Copyright fehlt auf der Startseite, ist auf Unterseiten vorhanden~~ (fixed 28.09.)
 + ~~Sponsorenlogos sind nur fünf auf anhieb zu sehen. Scrollen hilft nicht um mehr zu sehen, nur "drag and drop". Auch auf dem Desktop. Dadurch werden fünf Sponsorenlogos nie automatisch angezeigt, sondern erst nach User-Interaktion~~ (gefixt am 25.9., scrollt nun automatisch durch, dennoch immer die selbe Reihenfolge und man muss für hintere Sponsoren warten)
 
 ## Header
@@ -57,13 +57,13 @@
 + Keine Informationen ohne eine PDF runterladen zu müssen
 
 ### Saison / Spielplan
-+ Absolut unnötige Pagination des Spielplanes. Eine Übersicht über alle Spiele ist nicht möglich.
++ Absolut unnötige Pagination des Spielplanes. Eine Übersicht über alle Spiele ist nicht möglich. (seit dem 28.9. sind immerhin fast alle Spiele gleich zusehen. Aber immer noch nicht alle.)
 + Einfaches herausfinden, z.B. welche Spiele Ende Januar sind ist unmöglich ohne viele Seiten aufzurufen
 + fehlender ics download
 
 ### Tabelle
-+ Hintergrundbild kachelt und sorft für unlesbarkeit der Tabelle
-+ Hintergrundbild ist das selbe wie im footer, aber mit GET-Paramtern versehen, so dass es ein zweites Mal geladen wird
++ ~~Hintergrundbild kachelt und sorft für unlesbarkeit der Tabelle~~ (fixed 28.09.)
++ ~~Hintergrundbild ist das selbe wie im footer, aber mit GET-Paramtern versehen, so dass es ein zweites Mal geladen wird~~ (fixed 28.09.)
 + Mauszeiger ändert sich zur Hand bei den Teams, obwohl nichts klickbar ist
 + Keine Legende an der Tabelle
 + Viele fehlende Informationen (Siege? Niederlagen?)
@@ -85,7 +85,7 @@
 + Mauszeiger ändert sich zur Hand bei den Spieler-Details, aber nichts ist klickbar
 
 ### Teampartner
-+ alle Sponsorenlogos werden von der Domain neu.steelers.de geladen
++ ~~alle Sponsorenlogos werden von der Domain neu.steelers.de geladen~~ (fixed 28.09.)
 
 ### Spielerstatistik
 + nicht gekennzeichneter externer Link
@@ -104,7 +104,7 @@
 ### Sponsoren
 + keine einheitliche Aufmachung bei drei Seiten. Mal in Zeilen, mal in Spalten
 + Mauszeiger ändert sich zur Hand bei den Tabellenzeilen, aber nichts ist klickbar
-+ alle Sponsorenlogos werden von der Domain neu.steelers.de geladen
++ ~~alle Sponsorenlogos werden von der Domain neu.steelers.de geladen~~ (fixed 28.09.)
 
 ### Galerie
 + Passt vom Design nicht zum restlichen Auftritt, standard darstellung von NextGen Gallery
@@ -128,6 +128,9 @@ https://validator.w3.org/nu/?doc=http%3A%2F%2Fsteelers.de%2F
 8 Errors, 47 Warnings (grob geschätzt ist das vollkommen in Ordnung)
 
 ### Speedtests
+
+Update Speedtest (28.9.)
+[![Update Speedtest (28.9.)](/pages/speedtest-new-09-28.png)](https://tools.pingdom.com/#5987ef8aff000000)
 
 Speedtest neue Seite:
 [![Speedtest neue Seite](/pages/speedtest-new.png)](https://tools.pingdom.com/#5982ebb78dc00000)
