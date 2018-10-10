@@ -7,8 +7,8 @@
 + ~~Logo der Ladeanimation ist von neu.steelers.de~~ (fixed 28.09.)
 
 ## Größe der Webseite
-+ eine durchschnittliche Webseite hat momentan ca. 3MB: https://speedcurve.com/blog/web-performance-page-bloat/ steelers.de hat 14 MB (beim Start am Freitag waren es noch 30MB). Seit dem 28.9. sind es noch 9MB. Immernoch viel zu viel.
-+ alleine das Bild im Footer ist 2,9 MB groß. Seit dem 28.9. ist das Bild noch vorhanden, aber da neu.steelers.de nicht mehr tut, wird das bild nicht mehr ausgeliefert.
++ eine durchschnittliche Webseite hat momentan ca. 3MB: https://speedcurve.com/blog/web-performance-page-bloat/ steelers.de hat 14 MB (beim Start am Freitag waren es noch 30MB). Seit dem 28.9. sind es noch 9MB. Immernoch viel zu viel. Am 10.10. sind es wieder 11 MB.
++ ~~alleine das Bild im Footer ist 2,9 MB groß. Seit dem 28.9. ist das Bild noch vorhanden, aber da neu.steelers.de nicht mehr tut, wird das bild nicht mehr ausgeliefert.~~ (Bild wurde einfach entfernt)
 + ~~alle Daten werden über http/1.1 ausgeliefert (http://www.chip.de/artikel/HTTP_2-Der-neue-Web-Standard_139963048.html)~~ (fixed 26.09.)
 + ~~kein cache-control, d.h. alle Daten werden immer ausgeliefert~~ (fixed am 25.9.))
 + keine Bild-Optimierung. Testweise ein Spielerbild durch https://tinypng.com/ und dabei 74%(!) gespart
@@ -26,6 +26,7 @@
 + ~~16 verschiedne CSS-Dateien~~ (durch http/2 eher irrelevant)
 + ~~Vier CSS-Dateien von Template und Wordpress. Keines mit Minify, alle einzeln und nicht kombiniert.~~ (fixed am 26.9. per WP Fastest Cache)
 + zwei verschiedene Icon-Fonts
++ font Awesome wird doppelt geladen. VOn zwei verschiedenen CDN!
 + 29 verschiedene Hintergrundfarben. Fünf verschiedene Grün-Töne. Zwei verschiedene Blau-Töne.
 + 34 verschiedene Text-Farben. drei verschiedene Grün-Töne. Sechs verschiedene Blau-Töne
 ![CSS Farben](/pages/css-colors.PNG "CSS Farben")
@@ -40,16 +41,17 @@
 ## Seiten
 
 ### Startseite
-+ Nächstes Spiel hat immer zwei Buttons "Match Details" und "zu den Tickets". "Match Details" linkt erst auf Vorbericht, oder auf eine leere Seite, nach dem Spiel auf Spielbericht. "zu den Tickets" geht immer zur Ticketübersicht, nciht zum konkreten Spiel. Auch bei Auswärtsspielen
++ Nächstes Spiel hat immer zwei Buttons "Match Details" und "zu den Tickets". "Match Details" linkt erst auf Vorbericht, oder auf eine leere Seite, nach dem Spiel auf Spielbericht. "zu den Tickets" geht immer zur Ticketübersicht, nicht zum konkreten Spiel. Auch bei Auswärtsspielen
 + Nächstes Spiel ist dreifach! Erst mit Countdown, dann darunter nochmal in der Box dann mit Sprade.
 + Dresden-Spiel linkt auf URL "speiltag5"
 + Links zu Spielen sind inkonsistent. Mal "spieltag1" mal spiel "bayreuth-tigers-steelers". Auf jeden Fall unmöglich es über mehrere Spielzeiten konsistent zu nutzen
 
 ### News
-+ Alle News werden von User "Steelers" geschrieben, obwohl in den Beiträgen der richtige Author genannt wird.
-+ Kommentar Funktion vollkommen unklar. Was ist eine "Author URL"? Warum ist das ein Pflichtfeld? Warum ist die Beschriftung des Formulars in Englisch?
++ ~~Alle News werden von User "Steelers" geschrieben, obwohl in den Beiträgen der richtige Author genannt wird.~~ Autor wird einfach ausgeblendet
++ Kommentar Funktion unklar. Was ist eine "Author URL"? Warum ist das ein Pflichtfeld? Warum ist die Beschriftung des Formulars in Englisch?
 + Datumsformat ist Englisch, "continue reading" statt "weiterlesen"
 + Kleine Bilder werden fast doppelt so groß dargestellt und verpixeln dadurch
++ Hochformat Bilder werden nicht zugeschnitten: Proske-Bild ist 1105 Pixel hoch!!!
 
 ### Steelers-Aktionstage und Sponsoren-Aktionstage
 + Unterschiedliche Darstellung für den selben Inhalt
@@ -67,7 +69,7 @@
 + Mauszeiger ändert sich zur Hand bei den Teams, obwohl nichts klickbar ist
 + Keine Legende an der Tabelle
 + Viele fehlende Informationen (Siege? Niederlagen?)
-+ Teamlogos werden direkt von Holema geladen, kein Caching
++ Teamlogos werden direkt von Holema geladen, kein Caching (auch das Steelers-Logo)
 
 ### Ligaspielplan
 + Mauszeiger ändert sich zur Hand bei den Spielen, obwohl nichts klickbar ist
@@ -79,7 +81,7 @@
 + keine Spielerstatistik
 + keine Übersicht über Spielerdaten
 + kein Padding an Spielerbeschreibung, dadurch Text sehr eingequetscht
-+ Spielerbilder in Detailansicht sind 1000 Pixel hoch, werden aber nichtmal halb so groß angezeigt.
++ ~~Spielerbilder in Detailansicht sind 1000 Pixel hoch, werden aber nichtmal halb so groß angezeigt.~~ (Spielerbilder sind nun kleiner, allerdings werden sie immer noch vom Browser verkleinert. Obwohl sogar srcset verwedent wird, wird es falsch verwendet)
 + Auch Spielerbilder in der Übersicht werden im Browser noch verkleinert
 + Länderflaggen werden direkt von der DEL2 Homepage geladen, kein Caching.
 + Mauszeiger ändert sich zur Hand bei den Spieler-Details, aber nichts ist klickbar
@@ -128,6 +130,9 @@ https://validator.w3.org/nu/?doc=http%3A%2F%2Fsteelers.de%2F
 8 Errors, 47 Warnings (grob geschätzt ist das vollkommen in Ordnung)
 
 ### Speedtests
+
+Update Speedtest (10.10.)
+[![Update Speedtest (10.10.)](/pages/speedtest-new-10-10.png)](https://tools.pingdom.com/#5997546bbb800000)
 
 Update Speedtest (28.9.)
 [![Update Speedtest (28.9.)](/pages/speedtest-new-09-28.png)](https://tools.pingdom.com/#5987ef8aff000000)
