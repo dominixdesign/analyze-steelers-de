@@ -1,12 +1,38 @@
 # Inhaltliche und UX Fehler auf steelers.de
 
+## Gravierendste Fehler
+
+### Keine Entrittspreise
+
+Auf der neuen Seite finden sich __NIRGENDS__ die Eintrittspreise der Steelers. Nur Links auf eventim. Was Tickets an der Abendkasse kosten lässt sich so für niemanden herausfinden. Einen Arenaplan gibt es nur bei Dauerkarten. Dabei sollten Ticket-Informationen die aller wichtigsten Informationen überhaupt sein, so werden diese hier weggelassen.
+
+### Versteckte Spielberichte
+
+Da die News sehr weit unten auf der Seite auftauchen und die Spielberichte nur hinter dem Ergebnise oder einen Button Namens "Match Details" versteckt sind. Lesen immer weniger Leute die Spielberichte. Eine kleine Analyse der Zugriffszahlen in dieser Saison:
+
+| Datum      | Gegner       | Ergebnis   | Spielbericht Leser | per steelers.de | extern (Facebook, Links, usw) |
+|------------|--------------|------------|--------------------|-----------------|-------------------------------|
+| 07.09.2018 | Tillburg     | Sieg       | 3.181              | 1.067           | 2.114                         |
+| 14.09.2018 | Deggendorf   | Sieg       | 2.958              | 1.019           | 1.939                         |
+| 16.09.2018 | Bayreuth     | Sieg       | 2.622              | 870             | 1.752                         |
+| 21.09.2018 | Kaufbeuren   | Sieg       | 1.424              | 1.199           | 225                           |
+| 23.09.2018 | Crimmitschau | Niederlage | 472                | 325             | 147                           |
+| 28.09.2018 | Dresden      | Niederlage | 1.539              | 245             | 1.294                         |
+| 30.09.2018 | Kassel       | Niederlage | 611                | 451             | 160                           |
+| 03.10.2018 | Weißwasser   | Niederlage | 333                | 254             | 79                            |
+| 05.10.2018 | Bad Tölz     | Sieg       | 1.950              | 306             | 1.644                         |
+| 07.10.2018 | Heilbronn    | Sieg       | 2.205              | 497             | 1.708                         |
+
+Die extrem niedrigen Zahlen hängen meist damit zusammen, dass auf Facebook gar kein Link auf steelers.de veröffentlich wurde.
+Man erkennt aber deutlich, dass anstatt rund 1.000 Leser nur noch rund ein Drittel davon die Berichte direkt auf steelers.de finden und lesen. Ein 100%iges verlassen auf Facebook ist der falsche Weg!
+
 ## Startseite
 
 + News-Artikel erscheinen viel zu weit unten auf der Seite. News-Artikel werden dadurch nicht mehr wahrgenommen und nicht mehr gelesen.
-+ Countdown für drei Spiele ist verwirrend, da man erst auf den zweiten Blick erkennt, dass sich der Gegner ebenfalls ändert und nicht nur der Countdown.
++ Countdown für drei Spiele ist verwirrend, da man erst auf den zweiten Blick erkennt, dass sich der Gegner im Slider ebenfalls ändert und nicht nur der Countdown.
 + Abgelaufener Countdown erzeugt auch Stunden nach Spielbeginn eine leere Anzeige
 ![Startseite (18.09.)](/pages/startseite-18-09-30.png)
-+ Bei Auswärtsspielen gibt es einen "zu den Tickets"-Button. Man kann dort aber keine Tickets für Auswärtsspiele kaufen. Besser: Link auf SpradeTV.
++ Bei Auswärtsspielen gibt es einen "zu den Tickets"-Button. Man kann dort aber keine Tickets für Auswärtsspiele kaufen. Besser: Link auf SpradeTV oder die Bustouren.
 + Beim Heimspielen führt der Tickets-Button zur Übersicht aller Spiele. Besser: Link direkt auf das Ticketing des entsprechenden Spiels.
 + "Match Details" ist heute (Mittwoch, 10.10.) für drei Spiele klickbar. Auf keiner Seite finden sich Inhalte. Warum zeigt man diesen Link nicht erst an, wenn auch ein Vorbericht/Spielbericht existiert?
 + Newsansicht wird bereits wieder transparent, wenn man sie gerade erst komplett sieht. Ein paar Pixel weiter verschwinden die News komplett.
