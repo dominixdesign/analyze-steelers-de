@@ -111,7 +111,9 @@
 ### Galerie
 + Passt vom Design nicht zum restlichen Auftritt, standard darstellung von NextGen Gallery
 + Tippfehler in URL "gallerie"
-+ Pagination bricht bei zwei Bildern in letzter Zeile bereits um
++ ~~Pagination bricht bei zwei Bildern in letzter Zeile bereits um~~
++ Scrolling bei geöffneter Lightbox noch aktiv. Kann dazu führen, dass man nur einen ausgegrauten Screen sieht.
++ Slideshow läd Bilder in voller Größe (2048x1365 Pixel), zeigt aber nur 600x400 Pixel
 
 ### Archiv (warum ist das unter "Galerie"?)
 + nicht gekennzeichneter externer Link
