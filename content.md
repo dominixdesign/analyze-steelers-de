@@ -39,6 +39,9 @@ Man erkennt aber deutlich, dass anstatt rund 1.000 Leser nur noch rund ein Dritt
 ![News (10.10.)](/pages/newsansicht-10-10.PNG)
 + ~~Dazu sorgt das Hochformat-Foto für durcheinander und unlesbares Bild bei dem Firmentag.~~ (fixed)
 + Ergebnisse werden scheinbar nicht direkt von Holema übernommen, da auch Stunden nach Spielende teilweise kein Ergebnis eingetragen ist.
++ Durch die neue Darstellung der News wird der Titel der News erst bei Mous-Over angezeigt. Mobile Geräte haben kein Mouse Over und somit bekommt man auf einem Handy oder Tablet nie den Titel der News angezeigt.
++ Lange News-Titel werden unleserlich dargstellt und auch abgeschnitten.
+![News (17.10.)](/pages/newsansicht-10-17.PNG)
 
 ## News
 + Keine Suchfunktion
