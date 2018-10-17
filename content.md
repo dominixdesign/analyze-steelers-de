@@ -37,7 +37,7 @@ Man erkennt aber deutlich, dass anstatt rund 1.000 Leser nur noch rund ein Dritt
 + "Match Details" ist heute (Mittwoch, 10.10.) für drei Spiele klickbar. Auf keiner Seite finden sich Inhalte. Warum zeigt man diesen Link nicht erst an, wenn auch ein Vorbericht/Spielbericht existiert?
 + ~~Newsansicht wird bereits wieder transparent, wenn man sie gerade erst komplett sieht. Ein paar Pixel weiter verschwinden die News komplett.~~ (fixed)
 ![News (10.10.)](/pages/newsansicht-10-10.PNG)
-+ Dazu sorgt das Hochformat-Foto für durcheinander und unlesbares Bild bei dem Firmentag.
++ ~~Dazu sorgt das Hochformat-Foto für durcheinander und unlesbares Bild bei dem Firmentag.~~ (fixed)
 + Ergebnisse werden scheinbar nicht direkt von Holema übernommen, da auch Stunden nach Spielende teilweise kein Ergebnis eingetragen ist.
 
 ## News
