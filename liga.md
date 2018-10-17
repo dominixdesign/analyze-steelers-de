@@ -15,7 +15,7 @@ Test-Tool: https://tools.pingdom.com (mit Server Europe - Germany - Frankfurt)
 | [EHC Freiburg](https://www.ehcf.de/)               | 1,00 MB  | 1,17s | 48       | nein   | ja    | Silverstripe | Agentur   | nein                        |
 | [Eispiraten Crimmitschau](http://eispiraten-crimmitschau.de/) | 11,00 MB | 4,37s | 134      | nein   | nein  |              |           |                             |
 | [ESV Kaufbeuren](https://www.esvk.de/)               | 1,90 MB  | 0,43s | 47       | ja     | ja    | Contao       |           | nein                        |
-| [Heilbronner Falken](https://www.heilbronner-falken.de/) | 1,30 MB  | 5,10s | 89       | ja     | ja    | Wordpress    | Agentur   | nein                        |
+| [Heilbronner Falken](https://www.heilbronner-falken.de/) | 1,30 MB  | 5,10s | 89       | ja     | ja    | Wordpress    | Agentur   | ja ([Divi](https://www.elegantthemes.com/gallery/divi/))                        |
 | [Kassel Huskies](http://www.kassel-huskies.com/)     | 4,10 MB  | 1,10s | 101      | nein   | nein  | Wordpress    | Agentur   | ja ([X](https://themeforest.net/item/x-the-theme/5871901))                    |
 | [Lausitzer Füchse](https://www.lausitzer-fuechse.de/)  | 4,70 MB  | 1,41s | 171      | ja     | ja    |              | Agentur   | nein                        |
 | [Löwen Frankfurt](https://www.loewen-frankfurt.de/)   | 8,90 MB  | 3,70s | 85       | ja     | ja    | typo3        | Intern    | nein                        |
