@@ -39,6 +39,9 @@
 
 ## Header
 + Header mit Socialmedia, Mail und teelfon ist nur auf manchen Unterseiten. Und sowohl E-Mail-Adresse als auch Telefonnummer linken auf auf die aktuell offene Seite.
++ Warenkorb-Icon im Menü:
+![Warenkorb](/pages/header-18-10-25.png)
+
 
 ## Seiten
 
