@@ -54,6 +54,7 @@ Man erkennt aber deutlich, dass anstatt rund 1.000 Leser nur noch rund ein Dritt
 + Twitter wird gar nicht genutzt
 + Instagram wird erst genutzt und hat nun seit 3 Wochen keine Updates
 + Vorschaubilder der Videos gehen über die volle Breite inkl. des Bereiches für Instagram
+![Social Media (25.10.)](/pages/social-media-18-10-25.png)
 
 ## Aktionstage
 + Sollten eigentlich mit im Spielplan genannt werden
