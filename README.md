@@ -26,7 +26,9 @@
 + ~~16 verschiedne CSS-Dateien~~ (durch http/2 eher irrelevant)
 + ~~Vier CSS-Dateien von Template und Wordpress. Keines mit Minify, alle einzeln und nicht kombiniert.~~ (fixed am 26.9. per WP Fastest Cache)
 + zwei verschiedene Icon-Fonts
-+ font Awesome wird doppelt geladen. VOn zwei verschiedenen CDN!
++ ~~font Awesome wird doppelt geladen. VOn zwei verschiedenen CDN!~~ Mittlerweile wird FontAwesome DREIMAL geladen. Von drei verschiedenen CDN!
+![Font Awesome](/pages/font-awesome-18-10-25.png)
+
 + 29 verschiedene Hintergrundfarben. Fünf verschiedene Grün-Töne. Zwei verschiedene Blau-Töne.
 + 34 verschiedene Text-Farben. drei verschiedene Grün-Töne. Sechs verschiedene Blau-Töne
 ![CSS Farben](/pages/css-colors.PNG "CSS Farben")
