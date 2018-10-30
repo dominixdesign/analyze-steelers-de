@@ -58,6 +58,7 @@ Man erkennt aber deutlich, dass anstatt rund 1.000 Leser nur noch rund ein Dritt
 
 ## Aktionstage
 + Sollten eigentlich mit im Spielplan genannt werden
++ selbst vergangene Aktionstage stehen noch ganz oben (besser: der nächste Aktionstag steht ganz oben)
 
 ## Spielplan
 + Keine optische Trennung im Spielplan um sich leichter zurechtzufinden.
